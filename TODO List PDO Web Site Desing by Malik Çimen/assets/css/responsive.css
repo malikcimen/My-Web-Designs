@@ -1,0 +1,214 @@
+@media (max-width: 767.98px) {
+    body {
+
+        padding-top: 50px;
+    }
+
+    
+
+    .hero .item .caption .text-1x {
+        font-size: 16px;
+    }
+
+    .hero .item-small .caption .text-1x {
+        font-size: 12px;
+    }
+
+    .game-detail .text-1x {
+        font-size: 18px;
+    }
+
+    .modal-dialog {
+        margin: 0px;
+    }
+
+    .modal-content {
+        border-radius: 0px;
+    }
+
+    .list-price {
+        position: absolute;   
+        bottom: -2px;
+        height: auto;
+    }
+    .list-mobile {
+        padding-right: 70px;
+    }
+
+    .flex-nowrap {
+
+        overflow: auto;
+    }
+
+    .item-news .cover {
+        margin: 0px 0 20px;
+    }
+
+    .share-box {
+        left: 20px;
+        position: fixed;
+        top: auto;
+        bottom: 20px;
+        transform: none;
+    }
+
+    .w-40 {
+        width: 90%;
+    }
+
+    .share-box .share-link {
+        display: inline-flex;
+        width: 40px !important;
+        height: 40px !important;
+        margin-right: 5px;
+    }
+
+    .support-btn {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .typewriter h1 {
+        -webkit-animation: none;
+        animation: none;
+
+        white-space: normal;
+        font-size: 18px;
+    }
+
+    .full-height {
+        min-height: 20vh !important;
+    }
+
+    .shop-avatar {
+        width: 80px;
+        height: 80px;
+        min-width: 80px;
+        margin-top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 100px;
+    }
+
+    .shop-caption {
+        position: relative;
+        top: auto;
+        white-space: nowrap;
+        width: 100%;
+        text-align: center;
+    }
+
+    .shop-caption .text-1x {
+        font-size: 16px;
+    }
+
+    .offer-status {
+        font-size: 12px;
+        padding: 12px 15px;
+    }
+
+    .messages {
+        height: calc(100vh - 100px);
+        padding: 0px !important;
+        background-color: transparent !important;
+    }
+
+    .messages ::-webkit-scrollbar {
+        width: 2px;
+    }
+
+    .message-item::before {
+        left: -4px;
+        background-color: #8a96b0;
+    }
+
+    .card-messages-body {
+        height: calc(100vh - 160px);
+    }
+
+    .messages .card-header {
+        padding: 20px 0 0 0 !important
+    }
+
+    .messages .card-body {
+        padding: 10px 0 !important
+    }
+
+    .messages-form {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+    }
+
+    .messages-form .form-control {
+        border-radius: 0px;
+    }
+
+    .support-btn {
+        display: none;
+    }
+    .sale-div {
+        padding: 20px 30px;
+        margin-bottom: 40px;
+    }
+    .sale-div .text-1x {
+        font-size: 18px;
+    }
+    .sale-div .text-3x {
+        font-size: 14px;
+    }
+    .sale-div img {
+        height: 100px;
+        top: -20px;
+    }
+    .card-users {
+        height: 100vh;
+    }
+    .win .btn {
+        width: 100%;
+        display: block;
+        margin: 10px 0 !important;
+    }
+    .selectgroup {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    }
+    .selectgroup .selectgroup-item .selectgroup-button{
+        border-radius: 4px !important;
+        width: 100%;
+    }
+}
+@media (max-width: 769px) {
+    .islemlerrr {
+        display:block !important;
+    }
+    .desteklee {
+    overflow: scroll;
+    }
+    .islemtoplam {
+        display: block !important;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    
+    .islemtoplam span {
+        padding: 0.2rem 0.2rem;
+        margin-left: 0.5rem !important;
+    }
+    .list-price {
+        position: absolute;   
+        bottom: -2px;
+        height: auto;
+        right: 10px;
+    }
+    
+    .flex-nowrap {
+
+        overflow: auto;
+    }
+    .list-mobile {
+        padding-right: 70px;
+    }
+}

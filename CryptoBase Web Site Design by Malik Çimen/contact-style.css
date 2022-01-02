@@ -1,0 +1,93 @@
+
+        *
+        {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins';
+            box-sizing: border-box;
+        }
+        .services-section{
+            background: url(images/quest1.jpg);
+            background-size: cover;
+            padding: 200px 0;
+            
+        }
+        .inner-width{
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+            overflow: hidden;
+        }
+        .section-title{
+            text-align: center;
+            color: #ddd;
+            text-transform: uppercase;
+            font-size: 45px;
+        }
+        .border{
+            width: 160px;
+            height: 2px;
+            background:#ff0000;
+            margin: 40px auto;
+        }
+        .services-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .services-box{
+            max-width: 33.33%;
+            padding: 90px;
+            text-align: center;
+            color: #ddd;
+            cursor: pointer;
+        }
+        .service-icon{
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            border: 3px solid #ffffff;
+            color: #ffffff;
+            transform: rotate(45deg);
+            margin-bottom: 30px;
+            margin-top: 16px;
+            transition: 0.3 linear;
+        }
+        .service-icon i{
+            line-height: 70px;
+            transform: rotate(-45deg);
+            font-size: 26px;
+        }
+        .services-box:hover .service-icon{
+            background: #ff3300;
+            color: #ddd;
+        }
+        .service-title{
+            font-size: 45px;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+        .service-desc{
+            font-size: 25px;
+        }
+        @media screen and (max-width: 960px){
+            .servicse-box{
+                max-width: 45%;
+            }
+            
+        }
+        @media screen and (max-width: 760px){
+            .services-box{
+                max-width: 50%;
+            }
+            
+        }
+        @media screen and (max-width: 480px){
+            .services-box{
+                max-width: 100%;
+            }
+            .services-section{
+                max-width: 100%;
+            }
+        }
